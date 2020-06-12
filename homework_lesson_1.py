@@ -27,8 +27,34 @@
 
 # ЗАДАНИЕ 3
 # user_ask_number = input('Введите любое число: ')
-# sum = int(user_ask_number) + int(user_ask_number*2) + int(user_ask_number*3)
-# print(sum)
+# while True:
+#     if user_ask_number.isdigit():
+#         sum = int(user_ask_number) + int(user_ask_number*2) + int(user_ask_number*3)
+#         print(sum)
+#         break
+#     else:
+#         user_ask_number = input('Вы ввели текст, а нужны цифры: ')
+
+
+# ЗАДАНИЕ 4
+# division = 1
+# counter = 1
+# remains = 0
+#
+# while True:
+#     user_ask_number = input('Введите любое число: ')
+#     if user_ask_number.isdigit():
+#         user_ask_number = int(user_ask_number)
+#         while counter != 0:
+#             counter = int(user_ask_number / division)
+#             division *= 10
+#             number = counter % 10
+#             if number > remains:
+#                 remains = number
+#         print(f'Самое большая цифра в числе {remains}')
+#         break
+#     else:
+#         user_ask_number = input('Вы ввели текст, а нужны цифры: ')
 
 
 
