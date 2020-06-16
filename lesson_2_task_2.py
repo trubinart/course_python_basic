@@ -13,4 +13,3 @@ while i_2 < len_list:
     i_2 +=2
 
 print(list_2)
-print(type(list_2[1]))
