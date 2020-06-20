@@ -14,3 +14,4 @@ def my_func_2 (x, y):
         i += 1
     return result_2
 print(my_func_2(2,2))
+
