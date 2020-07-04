@@ -41,4 +41,3 @@ print(a.matrix)
 print(b.matrix)
 print(a)
 print(b)
-
