@@ -29,15 +29,13 @@ class Matrix():
                 result.append(sum_element)
             matrix3.append(result)
             num_list += 1
-        print(matrix3)
+        return Matrix(matrix3)
 
-
-matrix1 = [[1, 2, 3, 5, 6], [1, 2, 3, 5, 6]]
-matrix2 = [[11, 21, 31, 51, 61], [12, 22, 32, 52, 62]]
 
 a = Matrix([[1, 2, 3, 5, 6], [1, 2, 3, 5, 6]])
 b = Matrix([[11, 21, 31, 51, 61], [12, 22, 32, 52, 62]])
-print(a.matrix)
-print(b.matrix)
+c = Matrix([[1, 2, 3, 5, 6], [1, 2, 3, 5, 6]])
 print(a)
 print(b)
+e = a + b + c
+print(e)
